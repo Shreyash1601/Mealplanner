@@ -17,7 +17,7 @@ class MealRequest(BaseModel):
 class Meal(BaseModel):
     name: str
     calories: int
-    preparation_time: str
+    preparation_time: int
     ingredients: List[str]
     instructions: List[str]
 
